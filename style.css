@@ -1,0 +1,13 @@
+.divAProblem{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.divAProblem a {
+    text-decoration: none;
+    color: black;
+}
+.secProblem{
+    text-align: center;
+    
+}
