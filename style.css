@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 .divAProblem{
     
     display: flex;
@@ -6,8 +7,19 @@
 .divAProblem a {
     text-decoration: none;
     color: black;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.5vh;
+    font-family: "Tektur", sans-serif;
+    margin-top: 10vh
+}
+.secProblem h2{
+    font-size: 2vh;
+    font-family: "Tektur", sans-serif;
 }
 .secProblem{
     text-align: center;
-    
+    width: 50vw;
+    height: 30vh;
 }
