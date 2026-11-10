@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+.divAProblem{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.divAProblem a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 2.5vh;
+    font-family: "Tektur", sans-serif;
+    margin-top: 6vh;
+    background-color: gray;
+    width: 40vh
+}
+.secProblem h2{
+    font-size: 4vh;
+    font-family: "Tektur", sans-serif;
+}
+.secProblem{
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #b5b5b5;
+    position: absolute;
+    top: calc(50% - 25vh);
+    left: calc(50% - 25vw);
+    
+}
+.butClose{
+    position: absolute;
+    left:5vh;
+    top: 5vh;
+    border: 1px solid black;
+    border-radius :20px;
+    background-color: gray;
+    font-weight: 600;
+    font-size: 110%;
+    cursor: pointer
+}
+.animete{
+    animation-name: windowOppen;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+.animete2{
+    animation-name: windowClose;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+@keyframes windowOppen{
+    0%{
+        transform: scale(0.3);
+    }
+    50%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes windowClose{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.6);
+  }}
 @import url('https://fonts.googleapis.com/css2?family=Xmind:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
