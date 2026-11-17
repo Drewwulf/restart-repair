@@ -33,7 +33,7 @@
     position: absolute;
     top: calc(50% - 25vh);
     left: calc(50% - 25vw);
-    
+    display: none;
 }
 .butClose{
     position: absolute;
@@ -117,4 +117,10 @@ body{
     margin: 0;
     text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.54);
     font-weight: 600;
+}
+.secRepair{
+    padding-top: 200px;
+    
+    display: flex;
+    color: black;
 }
