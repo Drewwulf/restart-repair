@@ -162,7 +162,8 @@ body {
     }
     100%{
         transform: scale(0.6);
-  }}
+  }
+ }
 @import url('https://fonts.googleapis.com/css2?family=Xmind:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
@@ -208,5 +209,24 @@ body{
     font-weight: 600;
 }
 .footer{
+    width: 100%;
+    padding-top: 30px;
     
+}
+.divDadFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.divMiniFot1{
+    width: 40%;
+    }
+.divMiniFot1 p{
+    font-size: 1.3rem;
+}
+.divMiniFot2{
+    width: 30%;
+}
+.divMiniFot2 h2{
+    font-size: 1.7rem;
 }
