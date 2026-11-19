@@ -72,7 +72,7 @@
         transform: scale(1);
     }
     100%{
-        transform: scale(0.6);
+        transform: scale(0.3);
   }}
 @import url('https://fonts.googleapis.com/css2?family=Xmind:ital,wght@0,100..900;1,100..900&display=swap');
 body{
@@ -120,7 +120,31 @@ body{
 }
 .secRepair{
     padding-top: 200px;
-    
     display: flex;
     color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(135deg, #b9b9b9 50%, #ffffff);
+}
+.divRepair h2{
+    margin: 0;
+    font-size: 50px;
+}
+.divRepair p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px
+}
+.divRepair button{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0
+}
+.divImgPhone img{
+    width: 25vw;
 }
