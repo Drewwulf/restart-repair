@@ -162,7 +162,8 @@ body {
     }
     100%{
         transform: scale(0.6);
-  }}
+  }
+ }
 @import url('https://fonts.googleapis.com/css2?family=Xmind:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
@@ -206,4 +207,47 @@ body{
     margin: 0;
     text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.54);
     font-weight: 600;
+}
+.footer{
+    background-color: rgba(107, 107, 107, 0.74); 
+}
+.footerDiv{
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.divDadFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.divMiniFot1{
+    width: 40%;
+    }
+.divMiniFot1 p{
+    font-size: 1.3rem;
+    font-family: "Sofia Sans", sans-serif;
+     text-shadow: 1px 0 1px black;
+}
+.divMiniFot2{
+    width: 30%;
+   text-align: right;
+}
+.divMiniFot2 h2{
+    font-size: 1.7rem;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.divMiniMiniFot2{
+    display: flex;
+    justify-content: right;
+    gap: 7px;
+}
+.divMiniFot3{
+    text-align: center;
+}
+.divMiniFot3 p{
+    font-size: 1.1rem;
+      font-family: "Sofia Sans", sans-serif;
+    margin: 0;
 }
