@@ -209,9 +209,13 @@ body{
     font-weight: 600;
 }
 .footer{
-    width: 100%;
+    background-color: rgba(107, 107, 107, 0.74); 
+}
+.footerDiv{
+    width: 90%;
     padding-top: 30px;
-    
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 .divDadFooter{
     width: 100%;
@@ -223,10 +227,27 @@ body{
     }
 .divMiniFot1 p{
     font-size: 1.3rem;
+    font-family: "Sofia Sans", sans-serif;
+     text-shadow: 1px 0 1px black;
 }
 .divMiniFot2{
     width: 30%;
+   text-align: right;
 }
 .divMiniFot2 h2{
     font-size: 1.7rem;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.divMiniMiniFot2{
+    display: flex;
+    justify-content: right;
+    gap: 7px;
+}
+.divMiniFot3{
+    text-align: center;
+}
+.divMiniFot3 p{
+    font-size: 1.1rem;
+      font-family: "Sofia Sans", sans-serif;
+    margin: 0;
 }
