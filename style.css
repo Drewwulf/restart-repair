@@ -1,3 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Xmind:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+body {
+    margin: 0;
+}
+.nav {
+    width: 100%;
+    box-shadow: 1px 1px 15px black;
+    padding: 15px;
+    background-color: rgba(107, 107, 107, 0.74);
+}
+.div1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.div1 img {
+    width: 35px;
+    margin: 0;
+}
+.div1 p {
+    font-size: 2.5rem;
+    margin: 0;
+    padding-right: 5px;
+}
+.div1 h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.54);
+}
+.div2 {
+    width: 100%;
+    text-align: center;
+}
+.div2 p {
+    font-family: "Xmind", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.54);
+    font-weight: 600;
+}
+.sectionProNas {
+    background-image: url("10d2f429-b789-4e59-99ca-bb4791062a2b.png");
+    width: 100%;
+    height: 60vh;
+    padding-top: 200px;
+    box-shadow: 0 3px 30px rgba(91, 91, 91, 0.87);
+}
+.divDadSec {
+    background-color: #a8a8a8;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100%;
+    box-shadow: 0 0 14px #5b5b5b;
+}
+.divMiniSec h2 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Balsamiq Sans", sans-serif;
+    text-shadow: 2px 3px 1px gray;
+}
+.h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.h3_2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 25px;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.ul li {
+    font-size: 1.3rem;
+    padding: 10px;
+    list-style-type: none;
+    font-family: "Sofia Sans", sans-serif;
+    text-shadow: 1px 0 1px black;
+}
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 .divAProblem{
     
@@ -150,3 +238,131 @@ body{
 .divImgPhone img{
     width: 25vw;
 }
+.footer{
+    background-color: rgba(107, 107, 107, 0.74); 
+}
+.footerDiv{
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.divDadFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.divMiniFot1{
+    width: 40%;
+    }
+.divMiniFot1 p{
+    font-size: 1.3rem;
+    font-family: "Sofia Sans", sans-serif;
+     text-shadow: 1px 0 1px black;
+}
+.divMiniFot2{
+    width: 30%;
+   text-align: right;
+}
+.divMiniFot2 h2{
+    font-size: 1.7rem;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.divMiniMiniFot2{
+    display: flex;
+    justify-content: right;
+    gap: 7px;
+}
+.divMiniFot3{
+    text-align: center;
+    margin:  0;
+}
+.divMiniFot3 p{
+    font-size: 1.1rem;
+      font-family: "Sofia Sans", sans-serif;
+    margin: 0;
+}
+@media(max-width:1000px){
+    .div1 h1{
+        font-size: 6rem;
+    }
+    .div1 img{
+        width: 80px;
+    }
+    .div1 p{
+        font-size: 6rem;
+    }
+    .div2 p{
+        font-size: 3rem;
+    }
+    .divMiniSec h2{
+        font-size: 5rem;
+    }
+    .divMiniSec h3{
+        font-size: 2.7rem;
+    }
+    .ul li{
+        font-size: 2rem;
+    }
+    .divMiniFot1 p
+    {
+        font-size: 1.8rem;
+    }
+    .divMiniFot1{
+        width: 100%;
+        margin: 30px;
+    }
+    .divMiniFot2{
+        width: 45%;
+    }
+    .divMiniFot2 h2{
+        font-size: 2rem;
+    }
+    .divMiniMiniFot2 {
+        gap: 15px;
+        padding: 20px;
+    }
+    .divMiniMiniFot2 img{
+        width: 130%;
+    }
+    .divMiniFot3 p{
+        font-size: 1.8rem;
+    }
+    .divDadFooter{
+        display: block;
+    }
+    .divMiniFot2{
+        width: 100%;
+        text-align: center;
+    }
+    .divMiniFot2 h2{
+        margin: 0;
+        font-size: 2.8rem;
+    }
+    .divMiniMiniFot2{
+        justify-content: center;
+    }
+    .divMiniMiniFot2 img{
+        width: 60px;
+    }
+    .divDadSec {
+        min-height: 100%;
+    }
+    .sectionProNas {
+        min-height: 100vh!important;
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
